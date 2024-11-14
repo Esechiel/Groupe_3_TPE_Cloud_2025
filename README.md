@@ -1,13 +1,17 @@
 #Groupe_3_TPE_Cloud_2025
 #importation du module tkinter pour l'interface graphique
+
 import tkinter as tk
 from tkinter import messagebox
 
 from datetime import datetime
+
 #cette module importée nous permettra de bien manipuler la notion de date et aussi de prendre en compte les années bisextiles
 
 #fonction de conversion
+
 def convertir_date():
+
     #récuperer la date entree par l'utilisateur
     date_entree = entry_date.get()
 
